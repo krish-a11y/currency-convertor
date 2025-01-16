@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="icon" href="/conversion.png">
+    <link rel="stylesheet" href="/currency-converter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <div class="container ">
+    <h1 class="head">CURRENCY CONVERTER</h1>
+ <form>
+    <div class="amount">
+        <p>ENTER AMOUNT</p>
+        <input type="text" placeholder="amount" class="input">
+    </div>
+    <div class="conversion">
+        <div>
+        <p>FROM</p>
+        <div class="from">
+        <img src="https://flagsapi.com/US/flat/64.png" height="40px" class="fimage">
+        <select name="from" class="drop  one">
+            
+        </select>
+        
+    </div>
+    </div>
+    <div class="icon"> <i class="fa-solid fa-right-left" ></i></div>
+    <div>
+        <p>TO</p>
+        <div class="to">
+        <img src="https://flagsapi.com/IN/flat/64.png" height="43px" class="timage">
+        <select name="to" class=" drop two " >
+           
+            </select>
+    </div>
+    </div>
+    </div>
+    <div class="msg">1USD=80INR</div>
+    <button class="result">GET EXCHANGE RATE</button>
+ </form>
+</div>
+<script src="currency-converter-code.js"></script> 
+ <script src="currency-converter.js"></script>  
+</body>
+</html>
